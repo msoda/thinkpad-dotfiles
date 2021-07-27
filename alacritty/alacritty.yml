@@ -1,0 +1,59 @@
+# Window Settings (Padding)
+
+term: alacritty
+
+window:
+  padding:
+    x: 6
+    y: 6
+
+font:
+  size: 10
+  # Normal Font Face
+  normal:
+    family: Hack
+    style:  Regular
+  
+  # Bold Font Face
+  bold:
+    family: Hack
+    style: Bold
+
+  # Italic Font Face
+  italic:
+    family: Hack
+    style: Italic
+
+# Background Opacity
+
+background_opacity: 1.0
+
+# Colors Schemes
+schemes:
+  srcery: &srcery
+    primary:
+      background: '#1c1b19'
+      foreground: '#fce8c3'
+    cursor:
+      text: CellBackground
+      cursor: '#fbb829'
+    normal:
+      black:  '#1c1b19'
+      red:    '#ef2f27'
+      green:  '#519f50'
+      yellow: '#fbb829'
+      blue:   '#2c78bf'
+      magenta:  '#e02c6d'
+      cyan:   '#0aaeb3'
+      white:  '#baa67f'
+    bright:
+      black:  '#918175'
+      red:    '#f75341'
+      green:  '#98bc37'
+      yellow: '#fed06e'
+      blue:   '#68a8e4'
+      magenta:  '#ff5c8f'
+      cyan:   '#2be4d0'
+      white:  '#fce8c3'
+
+colors: *srcery
