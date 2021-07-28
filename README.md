@@ -1,4 +1,4 @@
-# thinpad-dotfiles
+# thinkpad-dotfiles
 
 ### Overview
 These are my Lenovo Thinkpad X220's dotfiles
